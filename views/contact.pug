@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym</title>
+  style
+      include ../CSS/style.css
+</head>
+
+<body>
+  <nav id='navbar'>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/#about">About</a></li>
+      <li><a href="/views/contact.pug">Contact</a></li>
+      <li><a href="/#service">Services</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <h1>Contact Anabolic Gym</h1>
+    <h2>We'D Love to Hear From You</h2>
+    <form action="/contact" id='form' method="POST">
+    <input type="text" name="name" id="name" placeholder="Enter Name">
+    <input type="text" name="age" id="age" placeholder="Enter Age">
+    <input type="text" name="phone" id="phone" placeholder="Enter phone">
+    <textarea name="address" id="address" cols="30" rows="5" placeholder="Address"></textarea>
+    <textarea name="more" id="more" cols="30" rows="5" placeholder="Purpose"></textarea>
+    <button class="btn">Join Now</button>
+    </form>
+   
+  </div>
+</body>
+</html>
